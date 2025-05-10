@@ -103,6 +103,8 @@ a {
 }
 .btn-outline-primary{
     color: #012c40;
+    width: 94%;
+    margin-right: 3%;
     border-color: #012c40;
 }
 .btn-outline-primary:hover{
@@ -110,7 +112,8 @@ a {
     color: white;
 }
 .inp1 {
-
+    width: 94%;
+    margin-right: 3%;
     border-radius: 5px;
     border:#012c40 solid 1px;
     transition: border-color 0.3s ease;
