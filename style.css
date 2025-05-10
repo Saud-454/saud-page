@@ -96,10 +96,10 @@ a {
     margin-top: 2%;
     border: #012c40 2px solid;
     border-radius: 15px;
-     margin-right: 9%;
+    margin-right: 9%;
     margin-left: 9%;
     width: 82%;
-    padding: 2%;
+    
 }
 .btn-outline-primary{
     color: #012c40;
@@ -110,6 +110,7 @@ a {
     color: white;
 }
 .inp1 {
+
     border-radius: 5px;
     border:#012c40 solid 1px;
     transition: border-color 0.3s ease;
@@ -117,4 +118,8 @@ a {
 .inp1:focus{
     border-color:white;
     box-shadow: 0 0 5px #012c40;
+}
+.row{
+    margin-right: 1%;
+   width: 98%;
 }
