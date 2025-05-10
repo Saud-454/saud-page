@@ -93,15 +93,69 @@
     </div>
 <!--      -->
 </div>
-<div class="modal fade" id="imageModal" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content">
-        <div class="modal-body p-0">
-          <img src="" id="modalImage" class="w-100">
-        </div>
-      </div>
-    </div>
-  </div>
+<!--  -->
+<!-- / -->
+<!--  -->
+<br>
+<center><h3 class="icont" style="font-size: 40px;">ارسل لي اللي تبي</h3></center>
+
+<!-- modify this form HTML and place wherever you want your form -->
+ <div class="container resal"> 
+<form id="my-form" action="https://formspree.io/f/mldblkwd" method="POST" dir="rtl">
+    <div class="row">
+  <h3 class="icont col-md-6">بريدك</h3>
+  <input class="inp1" type="text col-md-6" name="email" placeholder="qamar@gmail.com" />
+</div>
+<div class="row">
+  <h3 class="icont">رسالتك</h3>
+  <input class="inp1" type="text" name="message" placeholder="كيف حالك يا سعود .. ؟" />
+</div>
+<br>
+<div class="row" >
+  <button class="btn btn-outline-primary"  id="my-form-button">ارسل</button>
+  <center><p id="my-form-status"></p></center>
+</div>
+</form>
+
+<!-- Place this script at the end of the body tag -->
+<script>
+  var form = document.getElementById("my-form");
+  
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("my-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        status.innerHTML = "تم الإرسال .. تحياتي";
+        form.reset()
+      } else {
+        response.json().then(data => {
+          if (Object.hasOwn(data, 'errors')) {
+            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+          } else {
+            status.innerHTML = "عذرا .. فيه مشكلة بالإرسال"
+          }
+        })
+      }
+    }).catch(error => {
+      status.innerHTML = "عذرا .. فيه مشكلة بالإرسال"
+    });
+  }
+  form.addEventListener("submit", handleSubmit)
+</script>
+</div>
+
+
+<!--  -->
+<!--  -->
+<!--  -->
 <br>
 <br>
 <div class="row text-center">
@@ -138,7 +192,15 @@
 
 <!--  -->
 <!--  -->
-
+<div class="modal fade" id="imageModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <img src="" id="modalImage" class="w-100">
+        </div>
+      </div>
+    </div>
+  </div>
 <!--  -->
 <!--  -->
 <!-- Bootstrap JS + Popper -->
