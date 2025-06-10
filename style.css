@@ -1,0 +1,144 @@
+
+.m7t {
+    border: 0px solid black ;
+    border-radius: 5px;
+    padding: 0;
+}
+.kber {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+}
+#logo {
+    margin-top: -30px;
+  margin-bottom: -55px;
+  width: 100%;
+  height: 170%;
+
+}
+.log {
+    height: 150px;
+} 
+body {
+    
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+
+}
+
+.icon {
+    color: #024f75;
+    margin-bottom: 4%;
+}
+
+.iconm {
+    color: #024f75;
+    
+}
+.icont{
+color: #012c40;
+}
+body ::selection{
+    color: aliceblue;
+    background-color:#024f75;
+}
+.wst {
+    background-color: #012c40;
+    color: white;
+    height:auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 9%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-top: 2%;
+    padding-right:2% ;
+    
+}
+.par {
+    color: white;
+    font-size: large;
+}
+.qaem {
+    background-color: #012c40;
+    margin-right: 9%;
+    margin-left: 9%;
+    height: auto;
+    border-radius: 15px;
+    padding: 2%;
+}
+.tk :hover{
+    font-size: 20px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+  .tk:hover {
+    transform: scale(1.05);
+  }
+.head {
+    background-color: #012c40;
+    height: 60px;
+}
+a {
+    text-decoration: none;
+    color: #012c40;
+}
+.foot {
+    background-color: #012c40;
+    height: 60px;
+}
+.resal {
+    margin-top: 2%;
+    border: #012c40 2px solid;
+    border-radius: 15px;
+    margin-right: 9%;
+    margin-left: 9%;
+    width: 82%;
+    
+}
+.btn-outline-primary{
+    color: #012c40;
+    width: 94%;
+    margin-right: 3%;
+    border-color: #012c40;
+}
+.btn-outline-primary:hover{
+    background-color: #012c40;
+    color: white;
+}
+.inp1 {
+    width: 94%;
+    margin-right: 3%;
+    border-radius: 5px;
+    border:#012c40 solid 1px;
+    transition: border-color 0.3s ease;
+}
+.inp1:focus{
+    border-color:white;
+    box-shadow: 0 0 5px #012c40;
+}
+.row{
+    margin-right: 1%;
+   width: 98%;
+}
+.bg-cc {
+    background-color: #012c40;
+}
+.navbar-toggler-icon , .nav-link , .navbar-brand{
+filter: invert();
+}
+.c-btn {
+    background-color: #012c40;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.c-btn:hover {
+    background-color:rgb(191, 213, 233);
+    color: #012c40;
+}
