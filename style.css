@@ -142,3 +142,13 @@ filter: invert();
     background-color:rgb(191, 213, 233);
     color: #012c40;
 }
+
+.gro1 {
+    border-color: #012c40 !important;
+    color: #012c40;
+    border: solid 2px #012c40;
+}
+.gro1:hover {
+    background-color: #012c40;
+    color: aliceblue;
+}
