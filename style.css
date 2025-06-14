@@ -41,6 +41,7 @@ body {
 }
 .icont{
 color: #012c40;
+
 }
 body ::selection{
     color: aliceblue;
@@ -90,7 +91,7 @@ a {
 }
 .foot {
     background-color: #012c40;
-    height: 60px;
+    height: 60px !important;
 }
 .resal {
     margin-top: 2%;
@@ -122,6 +123,9 @@ a {
     border-color:white;
     box-shadow: 0 0 5px #012c40;
 }
+.inp1:hover{
+    background-color: #016c9e18;
+}
 .row{
     margin-right: 1%;
    width: 98%;
@@ -151,4 +155,17 @@ filter: invert();
 .gro1:hover {
     background-color: #012c40;
     color: aliceblue;
+}
+.resal2 {
+    margin-top: 2%;
+    border: #012c40 2px solid;
+    border-radius: 15px;
+    width: 98%;
+    margin-left: 1%;
+    margin-bottom: 500px;
+}
+.spinner-border{
+    color: #012c40;
+    width: 3rem;
+    height: 3rem;
 }
