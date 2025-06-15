@@ -108,9 +108,15 @@ a {
     margin-right: 3%;
     border-color: #012c40;
 }
+.btn-outline-primary:active{
+    outline: none;
+    background-color:#024f75 !important;
+    color: aliceblue;
+}
 .btn-outline-primary:hover{
     background-color: #012c40;
     color: white;
+    outline: none;
 }
 .inp1 {
     width: 94%;
@@ -118,10 +124,12 @@ a {
     border-radius: 5px;
     border:#012c40 solid 1px;
     transition: border-color 0.3s ease;
+    box-shadow:0 4px 30px rgba(0, 0, 0, 0.1) ;
 }
 .inp1:focus{
-    border-color:white;
+    border-color:#012c40;
     box-shadow: 0 0 5px #012c40;
+    outline:none;
 }
 .inp1:hover{
     background-color: #016c9e18;
@@ -168,4 +176,13 @@ filter: invert();
     color: #012c40;
     width: 3rem;
     height: 3rem;
+}
+/* From https://css.glass */
+.glass-box {
+background:#012c40b4;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(255, 255, 255, 0.54);
 }
