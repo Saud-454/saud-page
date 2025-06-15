@@ -144,8 +144,18 @@ a {
 .navbar-toggler-icon , .nav-link , .navbar-brand{
 filter: invert();
 }
-.c-btn {
+.c-btn2 {
     background-color: #012c40;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.c-btn2:hover {
+    background-color:rgb(191, 213, 233);
+    color: #012c40;
+}
+.c-btn {
+    background-color:#024f75;
     outline: none;
     box-shadow: none;
     border: none;
