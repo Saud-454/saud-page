@@ -79,10 +79,10 @@
         
            
             <div class="btn-group me-2 " role="group" aria-label="First group">
-    <a href="https://wa.me/966576787029" class="btn gro1 shadow"><i class="bi bi-whatsapp h1"></i></a>
-    <a href="https://t.me/crmxi" class="btn gro1 shadow"><i class="bi bi-telegram h1"></i></a>
-    <a href="mailto:binshiekhin@gmail.com" class="btn gro1 shadow"><i class="bi bi-envelope h1"></i></a>
-    <a href="https://signal.me/#eu/-F2o60GtJIKb0y5iwunCiwSQwI3PKVfD_w5qGycwieDA9i7HjFhO7ZWPmG3pIzB7" class="btn gro1 shadow"><i class="bi bi-signal h1"></i></a>
+    <a href="https://wa.me/966576787029" onclick="whats()" class="btn gro1 shadow"><i class="bi bi-whatsapp h1"></i></a>
+    <a href="https://t.me/crmxi" onclick=" tele() "class="btn gro1 shadow"><i class="bi bi-telegram h1"></i></a>
+    <a href="mailto:saudok@protonmail.com" onclick="mail()" class="btn gro1 shadow"><i class="bi bi-envelope h1"></i></a>
+    <a href="https://signal.me/#eu/-F2o60GtJIKb0y5iwunCiwSQwI3PKVfD_w5qGycwieDA9i7HjFhO7ZWPmG3pIzB7" onclick="signal()" class="btn gro1 shadow"><i class="bi bi-signal h1"></i></a>
     
 </div>
 <div class="text-center mt-3 pt-3 icont "><h3>أو ارسل بشكل مجهول</h3></div>
@@ -147,5 +147,37 @@
     <center><p style="color: white; font-size: 15px;">برمجة سعود شيخين ©</p></center>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+
+function whats(){
+  var takeed = window.confirm("ستنتقل الى تطبيق واتساب");
+  if (takeed===false){
+      event.preventDefault()
+  }
+}
+function whats(){
+  var takeed = window.confirm("ستنتقل الى تطبيق واتساب");
+  if (takeed===false){
+      event.preventDefault()
+  }
+}
+function tele(){
+  var takeed = window.confirm("ستنتقل الى تطبيق تلجرام");
+  if (takeed===false){
+      event.preventDefault()
+  }
+}
+function mail(){
+  var takeed = window.confirm("ستنتقل الى تطبيق البريد");
+  if (takeed===false){
+      event.preventDefault()
+  }
+}
+function signal(){
+  var takeed = window.confirm("ستنتقل الى تطبيق سيجنال");
+  if (takeed===false){
+      event.preventDefault()
+  }}
+</script>
 </body>
 </html>
