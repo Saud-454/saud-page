@@ -200,3 +200,12 @@ border: 1px solid rgba(255, 255, 255, 0.54);
 #skkl{
     cursor: pointer;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
