@@ -6,8 +6,7 @@ document.getElementById("sirv").onclick = function(){
     if (thgg === true ){
 window.location.href= "https://binshiekhin.github.io/crmxi/"
         };
-
-    }else {
+else {
         event.preventDefault()
     }
 
