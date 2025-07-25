@@ -1,23 +1,12 @@
 document.getElementById("sirv").onclick = function(){
 
 
-    let thgg = window.confirm(`عفوا هذه صفحة خاصة 
-    سيتوجب إدخال كلمة المرور ان كانت لديك صلاحية وصول.`);
+    let thgg = window.confirm(`ستنتقل الى موقعي الشخصي`);
 
     if (thgg === true ){
-        let password = window.prompt(`أدخل كلمة المرور`);
-        
-        if (password === null){
-            return
-        }
-        
-        if (password === "4545") {
-             window.location.href= "https://binshiekhin.github.io/crmxi/"
-        }
-        
-        else {
-            alert("كلمة المرور خاطئة")
-    }
+window.location.href= "https://binshiekhin.github.io/crmxi/"
+        };
+
     }else {
         event.preventDefault()
     }
