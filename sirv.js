@@ -11,8 +11,8 @@ document.getElementById("sirv").onclick = function(){
             return
         }
         
-        if (password === "1234") {
-             window.location.href= "https://alfalqi1.online/sirv.html"
+        if (password === "4545") {
+             window.location.href= https://binshiekhin.github.io/crmxi/"
         }
         
         else {
