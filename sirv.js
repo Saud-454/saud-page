@@ -12,7 +12,7 @@ document.getElementById("sirv").onclick = function(){
         }
         
         if (password === "4545") {
-             window.location.href= https://binshiekhin.github.io/crmxi/"
+             window.location.href= "https://binshiekhin.github.io/crmxi/"
         }
         
         else {
